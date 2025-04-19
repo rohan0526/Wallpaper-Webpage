@@ -1,5 +1,5 @@
 // API Configuration
-const PIXABAY_API_KEY = '49799909-727229ab99f21ed8b9499884d'; // Pixabay API key
+const PIXABAY_API_KEY = ''; // Pixabay API key
 const PIXABAY_API_URL = 'https://pixabay.com/api/';
 
 // DOM Elements
