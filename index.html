@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Wallpaper Gallery</h1>
+            <div class="header-controls">
+                <a href="#" id="show-favorites" class="favorites-link"><i class="fas fa-heart"></i> Favorites</a>
+                <div class="toggle-wrapper">
+                    <i class="fas fa-moon"></i>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="dark-mode-toggle">
+                        <label for="dark-mode-toggle"></label>
+                    </div>
+                    <i class="fas fa-sun"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-section container">
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search wallpapers...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="nature">Nature</button>
+            <button class="filter-btn" data-category="abstract">Abstract</button>
+            <button class="filter-btn" data-category="anime">Anime</button>
+            <button class="filter-btn" data-category="space">Space</button>
+            <button class="filter-btn" data-category="minimal">Minimal</button>
+            <button class="filter-btn" data-category="architecture">Architecture</button>
+            <button class="filter-btn" data-category="cars">Cars</button>
+            <button class="filter-btn" data-category="animals">Animals</button>
+            <button class="filter-btn" data-category="food">Food</button>
+            <button class="filter-btn" data-category="travel">Travel</button>
+            <button class="filter-btn" data-category="technology">Technology</button>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="wallpaper-grid" id="wallpaper-grid">
+            <!-- Wallpapers will be dynamically added here by JavaScript -->
+        </div>
+    </main>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close-btn">&times;</span>
+            <div class="wallpaper-preview">
+                <img id="lightbox-image" src="" alt="Wallpaper preview">
+                <div class="wallpaper-actions">
+                    <button id="download-btn"><i class="fas fa-download"></i> Download</button>
+                    <button id="favorite-btn"><i class="far fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Wallpaper Gallery</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
