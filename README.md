@@ -88,6 +88,10 @@ Here are some preview screenshots of the Wallpaper Gallery:
 ![Cars Category](screenshots/cars-category.png)
 *Filtering wallpapers by the Cars category*
 
+### Category Filter - Minimalist
+![Cars Category](screenshots/minimalist-category.png)
+*Filtering wallpapers by the Minimalist category*
+
 ### Favorites Collection
 ![Favorites](screenshots/favorites.png)
 *User's saved favorite wallpapers*
